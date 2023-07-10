@@ -24,17 +24,55 @@ get('/') do
     <li><a><q>scissors</q> (a fist with the index fingers extended, forming a V)</a></li>
   </ul>
   <p>A player who decides to play rock will beat another player who has chosen scissors (<q>rock crushes scissors</q> or sometimes <q>blunt scissors</q>), but will lose to one who has played paper (<q>paper covers rock</q>); a play of paper will lose to a play of scissors (<q>scissors cut[s] paper</q>). If both players choose the same shape, the game is tied and is usually immediately replayed to break the tie.</p>
-  <table>
-    <tr>
-      <td rowspan="2" colspan="2"></td>
-      <td colspan="3">and they play...</td>
-    </tr>
-    <tr>
-      <td>Rock</td>
-      <td>Paper</td>
-      <td>Scissors</td>
-    </tr>
-    <tr>
+  <table border=1>
+    <tbody>
+      <tr>
+        <td rowspan=2 colspan=2></td>
+        <td colspan=3>and they play...</td>
+      </tr>
+      <tr>
+        <td>Rock</td>
+        <td>Paper</td>
+        <td>Scissors</td>
+      </tr>
+      <tr>
+        <td rowspan=3>If we play...</td>
+        <td>Rock</td>
+        <td>We tie</td>
+        <td>We lose</td>
+        <td>We win</td>
+      </tr>
+      <tr>
+        <td>Paper</td>
+        <td>We win</td>
+        <td>We tie</td>
+        <td>We lose</td>
+      </tr>
+      <tr>
+        <td>Scissors</td>
+        <td>We lose</td>
+        <td>We win</td>
+        <td>We tie</td>
+      </tr>
+    </tbody>
   </table>
+  <p>
+  Originating from China and Japan, other names for the game in the English-speaking world include roshambo and other orderings of the three items, with <q>rock</q> sometimes being called <q>stone</q>.
+  </p>
+  <div>
+    <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/627px-Rock-paper-scissors.svg.png>
+  </div>
+  <p>
+  A chart showing how the three games interact</p>
+  <div>
+    <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Kitsune-ken_%28%E7%8B%90%E6%8B%B3%29%2C_Japanese_rock-paper-scissors_variant%2C_from_the_Genyoku_sui_bento_%281774%29.jpg/640px-Kitsune-ken_%28%E7%8B%90%E6%8B%B3%29%2C_Japanese_rock-paper-scissors_variant%2C_from_the_Genyoku_sui_bento_%281774%29.jpg>
+  </div>
+  <p>
+  Kitsune-ken was a popular Japanese rock-paper-scissors variant.</p>
+  <div>
+    <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Mushi-ken_%28%E8%99%AB%E6%8B%B3%29%2C_Japanese_rock-paper-scissors_variant%2C_from_the_Kensarae_sumai_zue_%281809%29.jpg/640px-Mushi-ken_%28%E8%99%AB%E6%8B%B3%29%2C_Japanese_rock-paper-scissors_variant%2C_from_the_Kensarae_sumai_zue_%281809%29.jpg>
+  </div>
+  <p>
+  Mushi-ken, the earliest Japanese sansukumi-ken game (1809). From left to right: slug (namekuji), frog (kawazu) and snake (hebi).</p>
   "
 end
