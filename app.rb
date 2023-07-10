@@ -24,5 +24,17 @@ get('/') do
     <li><a><q>scissors</q> (a fist with the index fingers extended, forming a V)</a></li>
   </ul>
   <p>A player who decides to play rock will beat another player who has chosen scissors (<q>rock crushes scissors</q> or sometimes <q>blunt scissors</q>), but will lose to one who has played paper (<q>paper covers rock</q>); a play of paper will lose to a play of scissors (<q>scissors cut[s] paper</q>). If both players choose the same shape, the game is tied and is usually immediately replayed to break the tie.</p>
+  <table>
+    <tr>
+      <td rowspan="2" colspan="2"></td>
+      <td colspan="3">and they play...</td>
+    </tr>
+    <tr>
+      <td>Rock</td>
+      <td>Paper</td>
+      <td>Scissors</td>
+    </tr>
+    <tr>
+  </table>
   "
 end
